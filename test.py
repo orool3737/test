@@ -1,3 +1,3 @@
 a = []
 a.append("뚤기" + "슬기" + "메롱")
-print(str(a))
+print(a[0])
