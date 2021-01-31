@@ -11,4 +11,4 @@ b = func(c)
 print(str(b))
 
 price = "96,000"
-print(int(price))
+print(int(price.replace(',',''))
