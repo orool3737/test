@@ -1,4 +1,3 @@
-,,,
 from function import func
 
 a = []
@@ -10,6 +9,6 @@ print('\n'.join(a))
 c=1
 b = func(c)
 print(str(b))
-'''
+
 price = "96,000"
-print(int(price.replace(",", ""))
+print(int(price.replace(',', '')))
