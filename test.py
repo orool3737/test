@@ -8,4 +8,4 @@ print(a[1])
 print('\n'.join(a))
 c=1
 b = func(c)
-print(b)
+print(str(b))
