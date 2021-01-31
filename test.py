@@ -1,4 +1,4 @@
-import function
+from function import func
 
 a = []
 a.append("뚤기" + "슬기" + "메롱")
