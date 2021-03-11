@@ -19,8 +19,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt        
     - name: test
-      env:
-        telegram_token: ${{ secrets.TELEGRAMTOKEN }}
       run: |
         python test.py
     - name: Commits
@@ -29,3 +27,4 @@ jobs:
         git config --local user.name "Auto_Crawler_Name" # 커밋에 포함될 이름
         git add news.json
         git commit -m "Auto - Update data with Crawling" # 커밋 메세지
+        git push
